@@ -19,4 +19,6 @@ from calculation_1 import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('perimeter', views.perimeter, name='perimeter'),
+    path('square', views.square, name='square'),
 ]

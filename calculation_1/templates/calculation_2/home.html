@@ -1,1 +1,14 @@
-test
+<h1>Характеристики треугольника</h1>
+
+<form action="{% url 'perimeter' %}">
+    <h2>
+        Первая сторона треугольника
+        <input type="number" min="0" max="10000000" name="1_side">
+        <br>
+        Вторая сторона треугольника
+        <input type="number" min="0" max="10000000" name="2_side">
+        <br>
+        Третья сторона треугольника
+        <input type="number" min="0" max="10000000" name="3_side">
+    </h2>
+</form>
